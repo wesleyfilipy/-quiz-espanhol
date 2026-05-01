@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/_next/static/chunks/:path*",
+      "destination": "/js/:path*"
+    },
+    {
+      "source": "/_next/static/css/:path*",
+      "destination": "/css/:path*"
+    },
+    {
+      "source": "/_next/static/media/:path*",
+      "destination": "/fonts/:path*"
+    }
+  ]
+}
